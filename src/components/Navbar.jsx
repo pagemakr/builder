@@ -1,7 +1,6 @@
 import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { useState } from 'react'
-import companyLogo from '../Pagemakr-logos_white.png';
 
 const NavBar = () => {
     const [state, setState] = useState(false)
