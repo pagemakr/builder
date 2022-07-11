@@ -4,7 +4,7 @@ const Form = () => {
   return (  
     <div id="form" className='overflow-y-auto my-12 flex flex-col justify-center items-center'>
         <h1 className='text-3xl md:text-5xl text-gray-300 font-bold'>Information</h1>
-        <section class="max-w-4xl p-6 my-10 mx-auto rounded-lg border border-indigo-500 shadow-md bg-gray-800">
+        <section class="max-w-4xl p-6 my-10 mx-auto rounded-lg border border-gray-500 shadow-md bg-gray-800">
         <h2 class="text-lg font-bold  capitalize text-gray-300">Section - Hero</h2>
         <form>
             <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
@@ -16,7 +16,7 @@ const Form = () => {
         </form>
        </section>
 
-        <section class="max-w-4xl p-6 my-10 mx-auto rounded-lg border border-indigo-500 shadow-md bg-gray-800">
+        <section class="max-w-4xl p-6 my-10 mx-auto rounded-lg border border-gray-500 shadow-md bg-gray-800">
         <h2 class="text-lg font-bold  capitalize text-gray-300">Section - About Us</h2>
         <form>
             <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
@@ -51,7 +51,7 @@ const Form = () => {
         </form>
     </section>
 
-    <section class="max-w-4xl p-6 my-10 mx-auto rounded-lg border border-indigo-500 shadow-md bg-gray-800">
+    <section class="max-w-4xl p-6 my-10 mx-auto rounded-lg border border-gray-500 shadow-md bg-gray-800">
         <h2 class="text-lg font-bold  capitalize text-gray-300">Section - Grid</h2>
         <form>
             <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">

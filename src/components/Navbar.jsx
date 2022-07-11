@@ -6,7 +6,6 @@ import companyLogo from '../Pagemakr-logos_white.png';
 const NavBar = () => {
     const [state, setState] = useState(false)
 
-    // Replace javascript:void(0) path with your path
     const navigation = [
         { title: "Home", path: "#home" },
         { title: "Components", path: "#cards" },
@@ -16,14 +15,15 @@ const NavBar = () => {
     <nav className="bg-gray-900 w-full md:static  border-gray-300">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                    <a href="">
+                    {/* <a href="">
                         <img
                             src="https://www.floatui.com/logo.svg" 
                             width={120} 
                             height={50}
                             alt="Float UI logo"
                         />
-                    </a>
+                    </a> */}
+                    <h1 className='text-2xl rounded-md text-gray-900 px-2 bg-gray-300'>PAGEMAKR</h1>
                   <div className="md:hidden">
                       <button className="text-gray-300 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
                           onClick={() => setState(!state)}
@@ -47,7 +47,7 @@ const NavBar = () => {
                       {
                           navigation.map((item, idx) => {
                               return (
-                                <li key={idx} className="text-gray-300 text-lg hover:text-indigo-400">
+                                <li key={idx} className="text-gray-300 text-md hover:text-yellow-300">
                                     <a href={item.path}>
                                         { item.title }
                                     </a>
@@ -59,7 +59,7 @@ const NavBar = () => {
               </div>
               <div className="hidden md:inline-block">
                 <a target="_blank" href="https://github.com/pagemakr">
-                    <GitHubIcon sx={{ fontSize: "35px" }}  className="text-gray-300 hover:text-indigo-500"></GitHubIcon>
+                    <GitHubIcon sx={{ fontSize: "35px" }}  className="text-indigo-300 hover:text-yellow-300"></GitHubIcon>
                 </a>
               </div>
           </div>

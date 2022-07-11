@@ -5,7 +5,7 @@ const DisplayCard = (props) => {
   const [selected,setSelected] = useState(false);
   return (
     <div>      
-    <div className="max-w-xs mx-auto my-8 overflow-hidden rounded-lg shadow-lg bg-gray-800  hover:border-indigo-600 hover:border-2" onClick={() => {
+    <div className="max-w-xs mx-auto my-8 overflow-hidden rounded-lg shadow-lg bg-gray-800 border-2 border-gray-900 hover:border-indigo-600" onClick={() => {
       setSelected(!selected)
       console.log(selected);
       }}>
