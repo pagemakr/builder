@@ -8,10 +8,9 @@ const NavBar = () => {
 
     // Replace javascript:void(0) path with your path
     const navigation = [
-        { title: "Sections", path: "javascript:void(0)" },
-        { title: "Careers", path: "javascript:void(0)" },
-        { title: "Guides", path: "javascript:void(0)" },
-        { title: "Partners", path: "javascript:void(0)" }
+        { title: "Home", path: "#home" },
+        { title: "Components", path: "#cards" },
+        { title: "Form", path: "#form" },
     ]
    return(
     <nav className="bg-gray-900 w-full md:static  border-gray-300">
@@ -48,7 +47,7 @@ const NavBar = () => {
                       {
                           navigation.map((item, idx) => {
                               return (
-                                <li key={idx} className="text-gray-300 hover:text-gray-200">
+                                <li key={idx} className="text-gray-300 text-lg hover:text-gray-200">
                                     <a href={item.path}>
                                         { item.title }
                                     </a>

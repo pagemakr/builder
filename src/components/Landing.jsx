@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing = () =>{
   return (
-    <div className='my-10'>
+    <div id="home" className='my-10 h-screen'>
         <section className="mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
                 <div className="text-center space-y-4">
                     <h1 className="text-gray-300 font-bold text-4xl md:text-5xl">
@@ -14,7 +14,7 @@ const Landing = () =>{
                     </p>
                 </div>
                 <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
-                    <a href="javascript:void(0)" className="px-10 py-3.5 w-full bg-blue-400 text-gray-700 text-center font-bold rounded-md shadow-md block sm:w-auto hover:text-gray-900">
+                    <a href="#cards" className="px-10 py-3.5 w-full bg-blue-400 text-gray-900 text-center font-bold rounded-md shadow-md block sm:w-auto hover:text-gray-900">
                         Get started
                     </a>
                 </div>

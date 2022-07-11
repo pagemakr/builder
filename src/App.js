@@ -1,6 +1,7 @@
 import NavBar from "./components/Navbar";
 import Landing from "./components/Landing";
 import Cards from "./components/Cards";
+import Form from "./components/Form";
 
 const App = () =>{
   return (
@@ -8,6 +9,7 @@ const App = () =>{
        <NavBar/>
        <Landing/>
        <Cards/>
+       <Form/>
     </div>
   );
 }
