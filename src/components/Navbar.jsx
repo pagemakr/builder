@@ -47,7 +47,7 @@ const NavBar = () => {
                       {
                           navigation.map((item, idx) => {
                               return (
-                                <li key={idx} className="text-gray-300 text-lg hover:text-gray-200">
+                                <li key={idx} className="text-gray-300 text-lg hover:text-indigo-400">
                                     <a href={item.path}>
                                         { item.title }
                                     </a>
@@ -59,7 +59,7 @@ const NavBar = () => {
               </div>
               <div className="hidden md:inline-block">
                 <a target="_blank" href="https://github.com/pagemakr">
-                    <GitHubIcon className="text-gray-300 hover:text-gray-200"></GitHubIcon>
+                    <GitHubIcon sx={{ fontSize: "35px" }}  className="text-gray-300 hover:text-indigo-500"></GitHubIcon>
                 </a>
               </div>
           </div>

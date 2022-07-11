@@ -14,7 +14,7 @@ const Landing = () =>{
                     </p>
                 </div>
                 <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
-                    <a href="#cards" className="px-10 py-3.5 w-full bg-indigo-600 text-gray-400 text-center font-bold rounded-md shadow-md block sm:w-auto hover:text-gray-900">
+                    <a href="#cards" className="px-10 py-3.5 w-full bg-indigo-600 text-gray-200 text-center font-bold rounded-md shadow-md block sm:w-auto hover:text-gray-900">
                         Get started
                     </a>
                 </div>

@@ -5,7 +5,7 @@ import Form from "./components/Form";
 
 const App = () =>{
   return (
-    <div className="App bg-gray-900 overflow-y-auto selection:bg-pink-300">
+    <div className="App bg-gray-900 overflow-y-auto selection:bg-yellow-300 selection:text-gray-900">
        <NavBar/>
        <Landing/>
        <Cards/>
