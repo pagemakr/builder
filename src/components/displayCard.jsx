@@ -8,7 +8,7 @@ const DisplayCard = (props) => {
   }
   return (
     <div>      
-    <div className={"max-w-xs mx-auto my-8 overflow-hidden rounded-lg shadow-lg  bg-gray-800 border-2 border-gray-900 focus:border-indigo-600 hover:border-indigo-600" + addBorder()} onClick={() => {
+    <div className={"max-w-xs mx-auto my-8 overflow-hidden rounded-lg shadow-lg  bg-gray-800 border-2 hover:border-indigo-600 " + addBorder()} onClick={() => {
       setSelected(!selected);
       console.log(addBorder());
     }}>
