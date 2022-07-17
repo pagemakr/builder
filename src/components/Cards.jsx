@@ -5,7 +5,7 @@ import { chainPropTypes } from '@mui/utils';
 
 const Cards = (props) => {
   return (
-    <div id="cards" className="flex flex-col justify-center items-center">
+    <div id="cards" className="flex flex-col justify-center items-center mb-32">
        <h1 className='font-bold text-3xl md:text-5xl pt-10 mb-6 text-gray-300'>Our Components</h1>
        <span className="w-64 h-[1px] bg-gray-300 mb-6"></span>
         <div className='flex flex-col md:flex-row md:gap-x-32'>

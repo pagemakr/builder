@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing = () =>{
   return (
-    <div id="home" className='my-10 overflow-y-auto pb-20'>
+    <div id="home" className='my-24 overflow-y-auto pb-24'>
         <section className="mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
                 <div className="text-center space-y-4">
                     <h1 className="text-gray-300 font-bold text-4xl md:text-5xl">

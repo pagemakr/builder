@@ -11,6 +11,7 @@ const NavBar = () => {
         { title: "Form", path: "#form" },
     ]
    return(
+   <div className='fixed w-full'>
     <nav className="bg-gray-900 w-full md:static  border-gray-300">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -58,11 +59,12 @@ const NavBar = () => {
               </div>
               <div className="hidden md:inline-block">
                 <a target="_blank" href="https://github.com/pagemakr">
-                    <GitHubIcon sx={{ fontSize: "35px" }}  className="text-indigo-300 hover:text-yellow-300"></GitHubIcon>
+                    <GitHubIcon sx={{ fontSize: "35px" }}  className="text-gray-300 hover:text-yellow-300"></GitHubIcon>
                 </a>
               </div>
           </div>
       </nav>
+     </div>
    )
 }
 
