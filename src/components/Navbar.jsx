@@ -11,7 +11,7 @@ const NavBar = () => {
         { title: "Form", path: "#form" },
     ]
    return(
-   <div className='fixed w-full'>
+   <div className='fixed w-full z-50'>
     <nav className="bg-gray-900 w-full md:static  border-gray-300">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">

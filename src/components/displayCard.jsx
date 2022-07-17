@@ -5,7 +5,7 @@ const DisplayCard = (props) => {
     return selected ? "border-indigo-600" : "border-gray-900";
   }
   return (
-    <div>      
+    <div className='z-10'>      
     <div className={"max-w-xs mx-auto my-8 overflow-hidden rounded-lg shadow-lg  bg-gray-800 border-2 hover:opacity-50 "
      + addBorder(props.isSelected)}>
         <div className="px-4 py-2">
