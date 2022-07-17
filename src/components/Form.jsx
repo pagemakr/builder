@@ -1,9 +1,7 @@
 import React from 'react'
 
-
 const Form = (props) => {
   const Hide = (hide) => {return  hide ? " hidden" : " visible"} 
-
   return (  
     <div id="form" className='overflow-y-auto my-12 flex flex-col justify-center items-center'>
         <h1 className='text-3xl md:text-5xl text-gray-300 font-bold'>Information</h1>

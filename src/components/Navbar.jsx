@@ -15,14 +15,6 @@ const NavBar = () => {
     <nav className="bg-gray-900 w-full md:static  border-gray-300">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                    {/* <a href="">
-                        <img
-                            src="https://www.floatui.com/logo.svg" 
-                            width={120} 
-                            height={50}
-                            alt="Float UI logo"
-                        />
-                    </a> */}
                     <h1 className='text-2xl rounded-md text-gray-900 px-2 bg-gray-300'>PAGEMAKR</h1>
                   <div className="md:hidden">
                       <button className="text-gray-300 outline-none p-2 rounded-md focus:border-gray-400 focus:border"

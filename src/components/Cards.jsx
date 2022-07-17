@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from './displayCard'
 import dummy from '../assets/about.png';
-import { chainPropTypes } from '@mui/utils';
 
 const Cards = (props) => {
   return (
