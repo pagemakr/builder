@@ -11,7 +11,7 @@ const Form = (props) => {
       });
 
   const sendData = () => {
-     const url = "/api";
+     const url = "/hjh";
      axios.post(url,{
         hero:{
             landing_image : data.hero.landing_image,
